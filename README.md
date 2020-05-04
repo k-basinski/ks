@@ -1,6 +1,6 @@
-# Course template
+# Kognitywistyka słyszenia
 
-To jest repo-template wykorzystywane do robienia nowych repo z zajęciami dydaktycznymi.
+
 
 ## Aktualności
 
@@ -18,9 +18,11 @@ Ul Tuwima 15, pok. 312
 Gdański Uniwersytet Medyczny
 
 
-## Wykłady
+## Slajdy
 
-- [01](01.html)
+- [00](00.html) - Kwestie organizacyjne
+- [01](01.html) - Czym jest percepcja?
+- [02] - Przetwarzanie predykcyjne
 
 ## Syllabus
 
@@ -28,11 +30,13 @@ Gdański Uniwersytet Medyczny
 
 ## Literatura
 
-#### Książki
+#### Zajęcia 2
+
+Najpierw przeczytaj [to](https://medium.com/@solopchuk/intuitions-on-predictive-coding-and-the-free-energy-principle-3fc5bcedc754) a później [to](https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc).
+
+#### Polecane książki
 
 
-#### Artykuły
+#### Artykuły 
 
-
-#### Wykłady on-line
 
