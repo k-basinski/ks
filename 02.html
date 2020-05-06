@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Krzysztof Basiński">
-  <title>Tytuł</title>
+  <title>Przetwarzanie predykcyjne</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -36,170 +36,245 @@
     <div class="slides">
 
 <section id="title-slide">
-  <h1 class="title">Tytuł</h1>
+  <h1 class="title">Przetwarzanie predykcyjne</h1>
   <p class="author">Krzysztof Basiński</p>
 </section>
 
-<section id="analogia-bregmana" class="slide level2">
-<h2>Analogia Bregmana</h2>
-<p>Wyobraź sobie, że jesteś nad jeziorem i twój kolega chce zagrać z tobą w grę. Gra polega na tym: wykopiecie dwa wąskie “kanały” idące z jeziora w głąb lądu. Wystarczy, żeby kanały miały metr długości, kilkanaście centymetrów szerokości i były od siebie odległe o jakieś pół metra. W połowie każdego z tych kanałów rozciągniecie prostokątny kawałek tkaniny i przymocujecie do ścian waszych kanałów. Gdy na jeziorze powstają fale, wpływają do waszych kanałów i powodują ruch tkaniny.</p>
-</section>
-<section id="analogia-bregmana-1" class="slide level2">
-<h2>Analogia Bregmana</h2>
-<figure>
-<img data-src="img/bregman.jpg" alt="" /><figcaption>Bregman</figcaption>
-</figure>
-</section>
-<section id="na-czym-polega-gra" class="slide level2">
-<h2>Na czym polega gra?</h2>
-<p>Twoim zadaniem jest patrzeć <strong>tylko na ruch tkaniny</strong> i odpowiedzieć na serię pytań:</p>
+<section id="zagadka" class="slide level3">
+<h3>Zagadka</h3>
 <ul>
-<li class="fragment">Ile łódek pływa po jeziorze?</li>
-<li class="fragment">Gdzie są te łódki?</li>
-<li class="fragment">Która z łódek ma największy silnik?</li>
-<li class="fragment">Która jest najbliżej ciebie?</li>
-<li class="fragment">Czy wieje wiatr?</li>
-<li class="fragment">Czy ktoś nagle wrzucił do jeziora jakiś duży obiekt?</li>
+<li class="fragment">Spotykasz studenta na kampusie, zaczynacie rozmawiać</li>
+<li class="fragment">Okazuje się, że nazywa się Tomek i jest bardzo nieśmiały</li>
+<li class="fragment">Co robi Tomek?</li>
+<li class="fragment">Studiuje prawo?</li>
+<li class="fragment">Robi dr z matematyki?</li>
 </ul>
 </section>
-<section id="section" class="slide level2">
-<h2>?</h2>
+<section id="zagadka-1" class="slide level3">
+<h3>Zagadka</h3>
 <ul>
-<li class="fragment">Rozwiązanie tego problemu wydaje się niemożliwe</li>
-<li class="fragment">Jest to <strong>ścisła analogia</strong> ludzkiego systemu słuchowego</li>
+<li class="fragment">Ile jest <strong>w ogóle</strong> studentów prawa na kampusie?</li>
+<li class="fragment">Ile jest <strong>w ogóle</strong> ludzi robiących phd z matmy na kampusie?</li>
 </ul>
 </section>
-<section id="system-słuchowy" class="slide level2">
-<h2>System słuchowy</h2>
+<section id="inferencja-bayesowska" class="slide level3">
+<h3>Inferencja Bayesowska</h3>
+<p><span class="math display">\[ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} \]</span></p>
 </section>
-<section id="system-słuchowy-1" class="slide level2">
-<h2>System słuchowy</h2>
-<figure>
-<img data-src="img/03_auditory_system.png" alt="" /><figcaption>System słuchowy</figcaption>
-</figure>
-</section>
-<section id="ślimak-i-narząd-cortiego" class="slide level2">
-<h2>Ślimak i narząd Cortiego</h2>
-<figure>
-<img data-src="img/03_cochlea.png" alt="" /><figcaption>Ślimak i narząd Cortiego</figcaption>
-</figure>
-</section>
-<section id="charakterystyczne-cechy-systemu-słuchowego" class="slide level2">
-<h2>Charakterystyczne cechy systemu słuchowego</h2>
+<section id="pp" class="slide level3">
+<h3>PP</h3>
 <ul>
-<li class="fragment">Selektywność częstotliwości (<em>frequency selectivity</em>)</li>
-<li class="fragment">Kompresja amplitudy (<em>amplitude compression</em>)</li>
-<li class="fragment"><em>Phase locking</em></li>
+<li class="fragment">Predictive processing (przetwarzanie predykcyjne)</li>
+<li class="fragment">Predictive coding (kodowanie predykcyjne)</li>
+<li class="fragment">Active inference (aktywne wnioskowanie)</li>
 </ul>
 </section>
-<section id="selektywność-częstotliwości" class="slide level2">
-<h2>Selektywność częstotliwości</h2>
+<section id="herman-von-helmholtz-1821---1894" class="slide level3">
+<h3>Herman von Helmholtz (1821 - 1894)</h3>
+<p><img src="img/02_helmholtz.jpg"></p>
+</section>
+<section id="karl-friston" class="slide level3">
+<h3>Karl Friston</h3>
+<p><img src="img/02_friston.jpg"></p>
+</section>
+<section id="model-wewnętrzny-internal-model" class="slide level3">
+<h3>Model wewnętrzny (internal model)</h3>
 <ul>
-<li class="fragment">Ślimak to zestaw filtrów środkowoprzepustowych (<em>band-pass filters</em>), czułych na wybrane częstotliwości</li>
-<li class="fragment">Zakresy tych filtrów łącznie dają spektrum słyszanych częstotliwości (20Hz-20 000Hz)</li>
-<li class="fragment">Zjawisko to nazywa się <em>tonotopią</em></li>
-<li class="fragment">Im wyższa częstotliwość, tym szerszy zakres filtrów</li>
-<li class="fragment">Dlatego gorzej różnicujemy wyższe częstotliwości</li>
+<li class="fragment">Zasada cybernetyczna: wszystko, co reguluje dany system musi utrzymywać <strong>wewnętrzny model</strong> tego systemu</li>
+<li class="fragment">Zasadniczym zadaniem mózgu jest zachowanie allostazy organizmu</li>
+<li class="fragment">Mózg ciągle modeluje stan wewnętrzny ciała (<em>interocepcja</em>) i to, jak ciało ma się od otoczenia (<em>percepcja</em>)</li>
 </ul>
 </section>
-<section id="selektywność-częstotliwości-1" class="slide level2">
-<h2>Selektywność częstotliwości</h2>
-<figure>
-<img data-src="img/03_freq_sel.png" alt="" /><figcaption>Selektywność częstotliwości</figcaption>
-</figure>
-</section>
-<section id="tonotopia-w-ślimaku" class="slide level2">
-<h2>Tonotopia w ślimaku</h2>
-<figure>
-<img data-src="img/03_tonotopy.png" alt="" /><figcaption>tonotopia</figcaption>
-</figure>
-</section>
-<section id="kompresja-amplitudy" class="slide level2">
-<h2>Kompresja amplitudy</h2>
+<section id="pp---o-co-chodzi" class="slide level3">
+<h3>PP - o co chodzi?</h3>
+<p>Percepcja jest kombinacją:</p>
 <ul>
-<li class="fragment">Aktywacja w odpowiedzi na cichsze dźwięki jest wyższa niż można by sądzić po aktywacji w odpowiedzi na głośniejsze dźwięki</li>
-<li class="fragment">Ludzki słuch odbiera olbrzymi zakres dynamiki (co najmniej 100dB czyli 5 rzędów wielkości), jednak odpowiedzi ze ślimaka różnicują głośność tylko na 2 rzędach wielkości</li>
+<li class="fragment"><strong>Predykcji</strong> opartych na wiedzy</li>
+<li class="fragment">Danych sensorycznych potwierdzających (lub nie) te predykcje</li>
 </ul>
 </section>
-<section id="kompresja-amplitudy-1" class="slide level2">
-<h2>Kompresja amplitudy</h2>
+<section id="pp---o-co-chodzi-1" class="slide level3">
+<h3>PP - o co chodzi?</h3>
+<p>Percepcja jest kombinacją:</p>
 <ul>
-<li class="fragment">Kompresja pomaga w słyszeniu cichych bodźców, jednocześnie umożliwiając słyszenie zmian w głośności bodźców głośnych</li>
-<li class="fragment">Kompresja spowodowana jest charakterystyką drgań błon narządu Cortiego i ruchem zewnętrznych komórek rzęsatych</li>
-<li class="fragment">Często w uszkodzeniu słuchu następuje spadek poziomu kompresji</li>
+<li class="fragment">procesów <strong>zstępujących</strong> (top-down)</li>
+<li class="fragment">procesów <strong>wstępujących</strong> (bottom-up)</li>
 </ul>
 </section>
-<section id="krzywa-kompresji-v-0.3-x" class="slide level2">
-<h2>Krzywa kompresji (v = 0.3 ^ x)</h2>
-<figure>
-<img data-src="img/03_compression.png" alt="" /><figcaption>Krzywa kompresji</figcaption>
-</figure>
-</section>
-<section id="phase-locking" class="slide level2">
-<h2>Phase locking</h2>
+<section id="percepcja-to-kontrolowana-halucynacja" class="slide level3">
+<h3>Percepcja to kontrolowana halucynacja</h3>
 <ul>
-<li class="fragment">Peak aktywacji neuronów w nerwie słuchowym pokrywa się z peakiem fali akustycznej</li>
-<li class="fragment">Jeden z dodatkowych mechanizmów rozpoznawania częstotliwości</li>
-<li class="fragment"><em>Phase locking</em> jest obecny tylko dla częstotliwości &lt; 4kHz</li>
-<li class="fragment">Akurat powyżej 4kHz zupełnie tracimy zdolność oceny wysokości dźwięku</li>
+<li class="fragment">Wykorzystujemy probabilistyczną wiedzę, żeby tworzyć <strong>generatywny model świata</strong></li>
+<li class="fragment">Model ten wykorzystujemy do <strong>konstruowania</strong> doświadczeń percepcyjnych</li>
 </ul>
 </section>
-<section id="phase-locking-1" class="slide level2">
-<h2>Phase locking</h2>
-<figure>
-<img data-src="img/03_phase_locking.png" alt="" /><figcaption>Phase locking</figcaption>
-</figure>
-</section>
-<section id="modulacja-amplitudy-i-obwiednie" class="slide level2">
-<h2>Modulacja amplitudy i obwiednie</h2>
-</section>
-<section id="co-to-jest-obwiednia-envelope" class="slide level2">
-<h2>Co to jest obwiednia (envelope)?</h2>
-</section>
-<section id="noise-vocoded-speech" class="slide level2">
-<h2>Noise-vocoded speech</h2>
-<figure>
-<img data-src="img/03_nvs.png" alt="" /><figcaption>Noise-vocoded speech</figcaption>
-</figure>
-</section>
-<section id="kora-słuchowa" class="slide level2">
-<h2>Kora słuchowa</h2>
-</section>
-<section id="wzrastający-poziom-skomplikowania-układu" class="slide level2">
-<h2>Wzrastający poziom skomplikowania układu</h2>
+<section id="mózg-jako-maszyna-do-tworzenia-predykcji" class="slide level3">
+<h3>Mózg jako maszyna do tworzenia predykcji</h3>
 <ul>
-<li class="fragment">3500 komórek rzęskowych na ucho</li>
-<li class="fragment">30000 włókien w nerwie słuchowym</li>
-<li class="fragment">60 mln neuronów w pierwszorzędowej korze słuchowej (?)</li>
+<li class="fragment">Mózg nie jest pasywnym “odbieraczem i analizatorem bodźców”</li>
+<li class="fragment">Mózg to wielowarstwowe, wieloośrodkowe, hierarchiczne urządzenie, które non-stop zajmuje się <strong>przewidywaniem własnych stanów sensorycznych</strong> (eksterocepcji i interocepcji)</li>
+<li class="fragment"><strong>Hierarchiczne</strong>, ponieważ <em>wyższe</em> struktury cały czas starają się przewidzieć stany <em>niższych</em> struktur</li>
 </ul>
 </section>
-<section id="kora-słuchowa-1" class="slide level2">
-<h2>Kora słuchowa</h2>
-<figure>
-<img data-src="img/03_cortex.png" alt="" /><figcaption>Kora słuchowa</figcaption>
-</figure>
-</section>
-<section id="pierwszorzędowa-kora-słuchowa" class="slide level2">
-<h2>Pierwszorzędowa kora słuchowa</h2>
+<section id="błędy-predykcji-prediction-errors" class="slide level3">
+<h3>Błędy predykcji (prediction errors)</h3>
 <ul>
-<li class="fragment">Zakręt Heschla</li>
-<li class="fragment">Pola Broadmanna 41 i 42</li>
-<li class="fragment">Jednostronne uszkodzenie - problemy ze słuchem</li>
-<li class="fragment">Obustronne uszkodzenie - głuchota korowa</li>
+<li class="fragment">Jeśli stany sensoryczne zgodne są z modelem/przewidywaniami: wszystko jest ok</li>
+<li class="fragment">Jeśli nie: powstają błędy predykcji, które uaktualniają model tak, by lepiej przewidywał stany</li>
+<li class="fragment">To jest <strong>uczenie się</strong></li>
 </ul>
 </section>
-<section id="właściwości-pierwszorzędowej-kory" class="slide level2">
-<h2>Właściwości pierwszorzędowej kory</h2>
+<section id="precyzja" class="slide level3">
+<h3>Precyzja</h3>
 <ul>
-<li class="fragment">Modulacja spektralna - wykrywanie zmian głośności tylko w obrębie określonych częstotliwości</li>
-<li class="fragment">Tonotopia</li>
+<li class="fragment"><em>Self-estimated sensory uncertainty - precision</em></li>
+<li class="fragment">Błędy predykcji mogą wynikać z różnych przyczyn</li>
+<li class="fragment">W nocy widzimy mniej niż w dzień</li>
+<li class="fragment">Mózg zdaje sobie sprawę z niepewności związanej z błędami predykcji</li>
+<li class="fragment">Im większa niepewność/mniejsza precyzja, tym błędy mają mniejszą szansę wpłynąć na model generatywny</li>
 </ul>
 </section>
-<section id="tonotopia-w-korze-pierwszorzędowej" class="slide level2">
-<h2>Tonotopia w korze pierwszorzędowej</h2>
-<figure>
-<img data-src="img/03_cortical_tonotopy.png" alt="" /><figcaption>tonotopia</figcaption>
-</figure>
+<section id="precyzja-a-uwaga" class="slide level3">
+<h3>Precyzja a uwaga</h3>
+<ul>
+<li class="fragment">W PP ten mechanizm utożsamiany jest z <strong>uwagą</strong></li>
+<li class="fragment">Jeśli kierujemy na coś uwagę, zwiększamy precyzję błędów predykcji</li>
+<li class="fragment">Zwiększając precyzję, zwiększamy szansę na zmianę modelu świata</li>
+</ul>
+</section>
+<section id="pp-to-nie-tylko-percepcja" class="slide level3">
+<h3>PP to nie tylko percepcja</h3>
+<ul>
+<li class="fragment">PP sugeruje, że tworzenie modeli jest naczelną zasadą organizującą systemy biologiczne!</li>
+<li class="fragment">W tym sensie aplikowane jest do wszystkich obszarów funkcjonowania umysłu</li>
+</ul>
+</section>
+<section id="pp-to-nie-tylko-teoria" class="slide level3">
+<h3>PP to nie tylko teoria!</h3>
+<ul>
+<li class="fragment">PP to zasada, wg. której skonstruowane są układy nerwowe!</li>
+<li class="fragment">Mózgi ssaków mają architekturę, która pozwala na PP (mają?)</li>
+</ul>
+</section>
+<section id="predykcje-w-życiu" class="slide level3">
+<h3>Predykcje w życiu</h3>
+<p><img src="img/02_serena.jpg"></p>
+<p>200km/h!</p>
+</section>
+<section id="proste-przykłady" class="slide level3">
+<h3>Proste przykłady</h3>
+<p><img src="img/02_flash_lag.gif"></p>
+</section>
+<section id="proste-przykłady-1" class="slide level3">
+<h3>Proste przykłady</h3>
+<p><a href="https://michaelbach.de/ot/mot-flashLag/index.html" class="uri">https://michaelbach.de/ot/mot-flashLag/index.html</a></p>
+</section>
+<section id="pp-a-emocje" class="slide level3">
+<h3>PP a emocje</h3>
+</section>
+<section id="andy-clark" class="slide level3">
+<h3>Andy Clark</h3>
+<p><img src="img/02_clark.jpg"></p>
+</section>
+<section id="lisa-feldman-barrett" class="slide level3">
+<h3>Lisa Feldman Barrett</h3>
+<p><img src="img/02_barrett.jpg"></p>
+</section>
+<section id="pp-a-emocje-1" class="slide level3">
+<h3>PP a emocje</h3>
+<ul>
+<li class="fragment">Zacznijmy od pomysłu J-L (współcześnie Prinz, Damasio, etc.)</li>
+<li class="fragment">Interocepcja jest jednym ze źródeł informacji, które wykorzystujemy do predykcji</li>
+<li class="fragment">Interocepcja ma <strong>wysoką precyzję</strong>, więc jest ważna dla modelu generatywnego</li>
+<li class="fragment">BTW, PP elegancko integruje dane z eksterocepcji</li>
+</ul>
+</section>
+<section id="przykład-lfb" class="slide level3">
+<h3>Przykład (LFB)</h3>
+<ul>
+<li class="fragment">Jesteś policjantem, idziesz ciemną ulicą w kiepskiej dzielnicy</li>
+<li class="fragment">Widzisz człowieka wyjmującego komórkę z kieszeni</li>
+<li class="fragment">PP tworzy model biorąc pod uwagę: bycie policjantem, ciemność, kiepska dzielnica, ktoś sięga do kieszeni…</li>
+<li class="fragment">W tej sytuacji może stworzyć się <strong>wyraźny percept</strong> broni (<em>shooter bias</em>)</li>
+</ul>
+</section>
+<section id="działanie-action" class="slide level3">
+<h3>Działanie (action)</h3>
+</section>
+<section id="klasyczny-pogląd-na-działanie-d.hume" class="slide level3">
+<h3>Klasyczny pogląd na działanie (D.Hume)</h3>
+<p>Aby działać, potrzebne są:</p>
+<ul>
+<li class="fragment">Przekonania na temat świata (poznanie)</li>
+<li class="fragment">Pragnienie, aby zmienić ten świat (emocje)</li>
+</ul>
+</section>
+<section id="pp-a-działanie" class="slide level3">
+<h3>PP a działanie</h3>
+<p>Gdy model się nie zgadza z danymi sensorycznymi, można:</p>
+<ul>
+<li class="fragment">Zmienić model, by pasował do świata</li>
+<li class="fragment">Zmienić świat, by pasował do modelu</li>
+</ul>
+</section>
+<section id="pp-a-poruszanie-się-motor-control" class="slide level3">
+<h3>PP a poruszanie się (motor control)</h3>
+<ul>
+<li class="fragment">Gdy chce się poruszyć, wytwarzam model świata, w którym już się poruszyłem</li>
+<li class="fragment">Model odbiega od rzeczywistości (błędy predykcji!)</li>
+<li class="fragment">Ruszam się, żeby dopasować model (zmniejszyć błąd)</li>
+<li class="fragment">(można tak programować roboty!)</li>
+</ul>
+</section>
+<section id="ale-po-co-w-ogóle-się-ruszać" class="slide level3">
+<h3>Ale po co w ogóle się ruszać?</h3>
+<ul>
+<li class="fragment">PP zakłada hierarchiczność systemu</li>
+<li class="fragment">Pragnienia “długoterminowe” (motywacje?) są wynikami długoterminowych, wysokopoziomowych predykcji na temat własnego stanu w przyszłości</li>
+</ul>
+</section>
+<section id="przykład-a.clark" class="slide level3">
+<h3>Przykład (A.Clark)</h3>
+<ul>
+<li class="fragment"><em>Przwiduję, że</em> spotkamy się o 19:00 w kinie, więc…</li>
+<li class="fragment"><em>Przwiduję, że</em> wsiądę do autobusu o 18:30, więc…</li>
+<li class="fragment"><em>Przwiduję, że</em> poruszę moimi kończynami, żeby dojść na przystanek, itd.</li>
+</ul>
+</section>
+<section id="prymat-emocji-poznania" class="slide level3">
+<h3>Prymat emocji? Poznania?</h3>
+<ul>
+<li class="fragment">W PP emocje są skutkiem predykcji na temat przyszłego stanu, wykształconymi przez ekstero/interocepcję</li>
+<li class="fragment">Emocje = tendencja do działania (<em>action tendency</em>)</li>
+<li class="fragment">W tym sensie <strong>wszystko jest powiązane</strong> (co rozwiązuje wiele problemów!) a rozgraniczenie na emocje i poznanie traci sens</li>
+</ul>
+</section>
+<section id="od-pp-do-free-energy-principle" class="slide level3">
+<h3>Od PP do free energy principle</h3>
+<p><img src="img/02_friston.jpg"></p>
+</section>
+<section id="problemy-z-pp" class="slide level3">
+<h3>Problemy z PP</h3>
+<ul>
+<li class="fragment">Teoria wszystkiego?</li>
+<li class="fragment">Falsyfikowalność?</li>
+<li class="fragment">Czy PP to wszystko, czy jest coś jeszcze?</li>
+<li class="fragment">Czy PP tłumaczy celowość, moralność, inne ludzkie przywary?</li>
+<li class="fragment">Czy free energy principle się zgadza?</li>
+</ul>
+</section>
+<section id="jeśli-kogoś-to-zainteresowało" class="slide level3">
+<h3>Jeśli kogoś to zainteresowało…</h3>
+<p><a href="https://www.youtube.com/watch?v=lyu7v7nWzfo">Anil Seth: Your brain hallucinates your conscious reality</a></p>
+<p><a href="https://www.youtube.com/watch?v=OS3RM3F8YmE">Andy Clark: Happily Entangled: Emotions Cognition and the Predictive Mind</a></p>
+</section>
+<section id="książki-o-pp" class="slide level3">
+<h3>Książki o PP</h3>
+<p>Jakob Hohwy, The Predictive Mind (2014), Oxford University Press</p>
+</section>
+<section id="książki-o-pp-1" class="slide level3">
+<h3>Książki o PP</h3>
+<p><img src="img/02_surfing.png"></p>
 </section>
     </div>
   </div>
@@ -213,11 +288,28 @@
       Reveal.initialize({
         // Push each slide change to the browser history
         history: true,
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
 
         // Optional reveal.js plugins
         dependencies: [
           { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/math/math.js', async: true },
           { src: 'reveal.js/plugin/notes/notes.js', async: true }
         ]
       });
