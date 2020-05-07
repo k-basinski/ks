@@ -28,6 +28,12 @@ Gdański Uniwersytet Medyczny
 
 [Klik](syllabus.pdf)
 
+## System punktowy
+
+- Wejściówki: 5 pkt x 4 = 20 pkt
+- Kolokwia: 25 pkt x 2 = 50 pkt
+- Projekt: 30 pkt
+
 ## Literatura
 
 #### Zajęcia 2
