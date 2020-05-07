@@ -45,7 +45,7 @@ Najpierw przeczytaj [to](https://medium.com/@solopchuk/intuitions-on-predictive-
 
 #### Artykuły 
 
-
+<!-- 
 ## Prezentacje zaliczeniowe
 
 1. Puschmann, S., Baillet, S., & Zatorre, R. J. (2019). Musicians at the Cocktail Party: Neural Substrates of Musical Training during Selective Listening in Multispeaker Situations. Cerebral Cortex, 29(8), 3253–3265. [pdf](https://www.zlab.mcgill.ca/publications/docs/bhy193.pdf)
@@ -58,3 +58,4 @@ Najpierw przeczytaj [to](https://medium.com/@solopchuk/intuitions-on-predictive-
 
 5. Quiroga-Martinez, D. R., Hansen, N. C., Højlund, A., Pearce, M., Brattico, E., & Vuust, P. (2020). Decomposing neural responses to melodic surprise in musicians and non-musicians: Evidence for a hierarchy of predictions in the auditory system. NeuroImage, 215(February). [pdf](https://www.sciencedirect.com/science/article/pii/S1053811920303037)
 
+ -->
