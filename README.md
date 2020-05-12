@@ -36,9 +36,14 @@ Gdański Uniwersytet Medyczny
 
 ## Literatura
 
+#### Zajęcia 4
+
+Warren, R. (2010) Sound and the auditory system. Str. 1-13. W: Auditory Perception. An Analysis and Synthesis. Cambridge: Cambridge University Press.
+
 #### Zajęcia 2
 
 Najpierw przeczytaj [to](https://medium.com/@solopchuk/intuitions-on-predictive-coding-and-the-free-energy-principle-3fc5bcedc754) a później [to](https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc).
+
 
 #### Polecane książki
 
