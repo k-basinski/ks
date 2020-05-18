@@ -22,7 +22,8 @@ Gdański Uniwersytet Medyczny
 
 - [00](00.html) - Kwestie organizacyjne
 - [01](01.html) - Czym jest percepcja?
-- [02] - Przetwarzanie predykcyjne
+- [02](02.html) - Przetwarzanie predykcyjne
+- [03](03.html) - System słuchowy
 
 ## Syllabus
 
@@ -36,19 +37,14 @@ Gdański Uniwersytet Medyczny
 
 ## Literatura
 
-#### Zajęcia 4
+#### Zajęcia 4 i 5
 
-Warren, R. (2010) Sound and the auditory system. Str. 1-13. W: Auditory Perception. An Analysis and Synthesis. Cambridge: Cambridge University Press.
+Warren, R. (2010) Sound and the auditory system. Str. 1-22. W: Auditory Perception. An Analysis and Synthesis. Cambridge: Cambridge University Press.
 
 #### Zajęcia 2
 
-Najpierw przeczytaj [to](https://medium.com/@solopchuk/intuitions-on-predictive-coding-and-the-free-energy-principle-3fc5bcedc754) a później [to](https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc).
+[Intuitions on predictive coding (...)](https://medium.com/@solopchuk/intuitions-on-predictive-coding-and-the-free-energy-principle-3fc5bcedc754)
 
-
-#### Polecane książki
-
-
-#### Artykuły 
 
 
 ## Prezentacje zaliczeniowe
