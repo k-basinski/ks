@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Krzysztof Basiński">
+  <title>Lokalizacja źródeł dźwięku</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reset.css">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Lokalizacja źródeł dźwięku</h1>
+  <p class="author">Krzysztof Basiński</p>
+</section>
+
+<section id="lokalizowanie-umożliwiają" class="slide level3">
+<h3>Lokalizowanie umożliwiają…</h3>
+<ul>
+<li class="fragment">Para uszu</li>
+<li class="fragment">Małżowiny</li>
+<li class="fragment">Przetwarzanie sygnału w CUN</li>
+</ul>
+</section>
+<section id="lokalizacja---nietrywialny-problem" class="slide level3">
+<h3>Lokalizacja - nietrywialny problem</h3>
+<ul>
+<li class="fragment">Fala akustyczna odbierana przez ślimak istotnie zmienia się wraz ze zmieniającą się lokalizacją źródła</li>
+<li class="fragment">Najczęściej nie słyszymy tych zmian</li>
+<li class="fragment">Percepcja <strong>niezmiennego</strong> dźwięku zmieniającego położenie</li>
+</ul>
+</section>
+<section id="lokalizacja" class="slide level3">
+<h3>Lokalizacja</h3>
+<ul>
+<li class="fragment">Azymut (<em>azimuth</em>) - płaszczyzna pozioma, prawo/lewo</li>
+<li class="fragment">Wysokość (<em>elevation</em>) - płaszczyzna pionowa, góra/dół</li>
+<li class="fragment">Dystans</li>
+</ul>
+</section>
+<section id="mechanizmy-lokalizacji-azymutu" class="slide level3">
+<h3>Mechanizmy lokalizacji azymutu</h3>
+<ul>
+<li class="fragment"><em>Inter-aural time differences</em> - różnice w <strong>czasie</strong> pomiędzy kanałami</li>
+<li class="fragment"><em>Inter-aural intensity differences</em> – różnice w <strong>głośności</strong> pomiędzy kanałami</li>
+<li class="fragment">Zniekształcenia spowodowane kształtem małżowin (<em>pinnae</em>)</li>
+</ul>
+</section>
+<section id="różnice-w-czasie" class="slide level3">
+<h3>Różnice w czasie</h3>
+<p><img src="img/04_itd.png"></p>
+</section>
+<section id="różnice-w-głośności" class="slide level3">
+<h3>Różnice w głośności</h3>
+</section>
+<section id="mechanizm-lokalizacji-wysokości" class="slide level3">
+<h3>Mechanizm lokalizacji wysokości</h3>
+</section>
+<section id="pratt-1930" class="slide level3">
+<h3>Pratt (1930)</h3>
+<ul>
+<li class="fragment">Wiele głośników, rozmieszczonych w różnych miejscach za kotarą</li>
+<li class="fragment">Badani mieli wskazać, skąd pochodzi źródło dźwięku</li>
+<li class="fragment">Gdy z głośnika w środku odtwarzane były <strong>wysokie</strong> dźwięki, ludzie oceniali je jako dobiegające z <strong>góry</strong></li>
+<li class="fragment">Gdy z głośnika w środku odtwarzane były <strong>niskie</strong> dźwięki, ludzie oceniali je jako dobiegające z <strong>dołu</strong></li>
+</ul>
+</section>
+<section id="problem-z-życia-wpływa-na-rozwój-nauki" class="slide level3">
+<h3>Problem z życia wpływa na rozwój nauki</h3>
+<ul>
+<li class="fragment">Nagrania lądujących i startujących samolotów</li>
+<li class="fragment"><em>Na żywo</em> słychać różnicę pomiędzy startem i lądowaniem</li>
+<li class="fragment">Na nagraniu nie słychać różnicy</li>
+<li class="fragment">Jak to?</li>
+</ul>
+</section>
+<section id="rozwiązanie-zagadki---mikrofony-nie-mają-uszu" class="slide level3">
+<h3>Rozwiązanie zagadki - mikrofony nie mają uszu</h3>
+<ul>
+<li class="fragment">Kształt ludzkiej małżowiny usznej zmienia barwę dźwięku</li>
+<li class="fragment">Dźwięki dobiegające z <strong>góry</strong> mają bardziej uwypuklone <strong>górne</strong> częstotliwości</li>
+<li class="fragment">Dźwięki dobiegające z <strong>dołu</strong> mają bardziej uwypuklone <strong>dolne</strong> częstotliwości</li>
+</ul>
+</section>
+<section id="lokalizacja-źródła-dźwięku---azymut" class="slide level3">
+<h3>Lokalizacja źródła dźwięku - azymut</h3>
+<ul>
+<li class="fragment"><em>Intra-aural time differences</em> - wynika z prędkości dźwięku</li>
+<li class="fragment"><em>Intra-aural amplitude differences</em> - wynika z kształtu naszego ciała</li>
+<li class="fragment">Te dane wskazują dokładnie to samo dla wielu możliwych lokalizacji dźwięku (<em>cone of confusion</em>)</li>
+<li class="fragment">Tu przydają się małżowiny uszne</li>
+</ul>
+</section>
+<section id="małżowiny-a-lokalizacja---hofman-van-opstal-1998" class="slide level3">
+<h3>Małżowiny a lokalizacja - Hofman &amp; Van Opstal (1998)</h3>
+<ul>
+<li class="fragment">Zmieniono kształt małżowin ochotnikom przy użyciu implantów</li>
+<li class="fragment">Uczestnicy dalej dobrze lokalizowali azymut</li>
+<li class="fragment">Uczestnicy nie byli w stanie lokalizować wysokości dźwięku</li>
+<li class="fragment">Fundamentalna rola małżowin w percepcji lokalizacji wysokości dźwięku</li>
+</ul>
+</section>
+<section id="małżowiny-a-lokalizacja---hofman-van-opstal-1998-1" class="slide level3">
+<h3>Małżowiny a lokalizacja - Hofman &amp; Van Opstal (1998)</h3>
+<ul>
+<li class="fragment">Uczestnicy byli proszeni o noszenie implantów przez ok. 5 tygodni</li>
+<li class="fragment">Po czasie uczestnicy <em>nauczyli się</em> rozpoznawania wysokości dźwięków używając “nowych uszu”</li>
+</ul>
+</section>
+<section id="co-z-azymutem-hofman-vlaming-termeer-van-opstal-2002" class="slide level3">
+<h3>Co z azymutem? Hofman, Vlaming, Termeer &amp; Van Opstal (2002)</h3>
+<ul>
+<li class="fragment">Zastosowano “przeciwnie przepięte” aparaty słuchowe</li>
+<li class="fragment">Dźwięk dochodzący do lewego ucha był wzmacniany w prawym uchu</li>
+<li class="fragment">Dźwięk dochodzący do prawego ucha był wzmacniany w lewym uchu</li>
+</ul>
+</section>
+<section id="co-z-azymutem-hofman-vlaming-termeer-van-opstal-2002-1" class="slide level3">
+<h3>Co z azymutem? Hofman, Vlaming, Termeer &amp; Van Opstal (2002)</h3>
+<ul>
+<li class="fragment">Procedura odwraca percepcję azymutu</li>
+<li class="fragment">Uczestnicy <strong>nie adaptowali się do tej zmiany</strong></li>
+<li class="fragment">Percepcja wysokości <strong>wyuczona</strong></li>
+<li class="fragment">Percepcja azymutu <strong>wrodzona</strong></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

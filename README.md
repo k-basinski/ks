@@ -37,6 +37,10 @@ Gdański Uniwersytet Medyczny
 
 ## Literatura
 
+#### Zajęcia 7
+
+Oxenham, A. J. (2012). Pitch perception. Journal of Neuroscience, 32(39), 13335–13338. https://doi.org/10.1523/JNEUROSCI.3815-12.2012 [pdf](https://www.jneurosci.org/content/jneuro/32/39/13335.full.pdf)
+
 #### Zajęcia 4 i 5
 
 Warren, R. (2010) Sound and the auditory system. Str. 1-22. W: Auditory Perception. An Analysis and Synthesis. Cambridge: Cambridge University Press.
