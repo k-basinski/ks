@@ -39,6 +39,14 @@ Gdański Uniwersytet Medyczny
 
 ## Literatura
 
+#### Zajęcia 8
+
+Obiecałem, że ma być lekko, łatwo i przyjemnie, więc proszę bardzo: waszym zadaniem jest zobaczyć i przetrawić te dwa krótkie wykłady, których autorami są dwa niekwestionowane autorytety w dziedzinie: [Steven Pinker](https://en.wikipedia.org/wiki/Steven_Pinker) oraz [Henkjan Honing](https://en.wikipedia.org/wiki/Henkjan_Honing), zajmujący w dużej mierze przeciwstawne stanowiska:
+
+[Musical Appreciation, Byproduct or Adaptation - Dawkins Interviews Steven Pinker](https://www.youtube.com/watch?v=pj5oqYKI9xo)
+
+[TEDxAmsterdam 2011 - Henkjan Honing - What makes us musical animals?](https://www.youtube.com/watch?v=EU7HcV83RXc)
+
 #### Zajęcia 7
 
 Oxenham, A. J. (2012). Pitch perception. Journal of Neuroscience, 32(39), 13335–13338. https://doi.org/10.1523/JNEUROSCI.3815-12.2012 [pdf](https://www.jneurosci.org/content/jneuro/32/39/13335.full.pdf)
