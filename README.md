@@ -24,6 +24,8 @@ Gdański Uniwersytet Medyczny
 - [01](01.html) - Czym jest percepcja?
 - [02](02.html) - Przetwarzanie predykcyjne
 - [03](03.html) - System słuchowy
+- [04](04.html) - Lokalizacja
+- [05](05.html) - Wysokość
 
 ## Syllabus
 
