@@ -26,6 +26,8 @@ Gdański Uniwersytet Medyczny
 - [03](03.html) - System słuchowy
 - [04](04.html) - Lokalizacja
 - [05](05.html) - Wysokość
+- [06](06.html) - Muzyka
+
 
 ## Syllabus
 
