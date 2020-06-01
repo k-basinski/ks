@@ -6,5 +6,6 @@ pandoc -t revealjs -s 02.md -o 02.html -i --mathjax
 pandoc -t revealjs -s 03.md -o 03.html -i 
 pandoc -t revealjs -s 04.md -o 04.html -i 
 pandoc -t revealjs -s 05.md -o 05.html -i 
+pandoc -t revealjs -s 06.md -o 06.html -i 
 
 # open 01.html
