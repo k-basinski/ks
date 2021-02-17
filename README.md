@@ -46,6 +46,7 @@ Gdański Uniwersytet Medyczny
 
 - <https://medium.com/@solopchuk/intuitions-on-predictive-coding-and-the-free-energy-principle-3fc5bcedc754>
 - <https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc>
+
 <!-- 
 #### Zajęcia 8
 
