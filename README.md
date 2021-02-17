@@ -20,11 +20,14 @@ Gdański Uniwersytet Medyczny
 
 - [00](00.html) - Kwestie organizacyjne
 - [01](01.html) - Czym jest percepcja?
+
+<!-- 
 - [02](02.html) - Przetwarzanie predykcyjne
 - [03](03.html) - System słuchowy
 - [04](04.html) - Lokalizacja
 - [05](05.html) - Wysokość
-- [06](06.html) - Muzyka
+- [06](06.html) - Muzyka 
+-->
 
 
 ## Syllabus
