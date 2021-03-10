@@ -20,9 +20,10 @@ Gdański Uniwersytet Medyczny
 
 - [00](00.html) - Kwestie organizacyjne
 - [01](01.html) - Czym jest percepcja?
+- [02](02.html) - Przetwarzanie predykcyjne
+- [03](03.html) - Fale akustyczne
 
 <!-- 
-- [02](02.html) - Przetwarzanie predykcyjne
 - [03](03.html) - System słuchowy
 - [04](04.html) - Lokalizacja
 - [05](05.html) - Wysokość
@@ -34,18 +35,29 @@ Gdański Uniwersytet Medyczny
 
 [Klik](syllabus.pdf)
 
+
 ## System punktowy
 
 - Wejściówki: 20 pkt (wynik najgorszej wejściówki się nie liczy)
 - Kolokwia: 25 pkt x 2 = 50 pkt
 - Projekt: 30 pkt
 
+
+
+
 ## Literatura
+
 
 ### Zajęcia 2
 
 - <https://medium.com/@solopchuk/intuitions-on-predictive-coding-and-the-free-energy-principle-3fc5bcedc754>
 - <https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc>
+
+
+### Zajęcia 5 (10.03.2021)
+
+
+
 
 <!-- 
 #### Zajęcia 8
