@@ -22,9 +22,9 @@ Gdański Uniwersytet Medyczny
 - [01](01.html) - Czym jest percepcja?
 - [02](02.html) - Przetwarzanie predykcyjne
 - [03](03.html) - Fale akustyczne
+- [04](04.html) - System słuchowy
 
 <!-- 
-- [03](03.html) - System słuchowy
 - [04](04.html) - Lokalizacja
 - [05](05.html) - Wysokość
 - [06](06.html) - Muzyka 
@@ -54,7 +54,7 @@ Gdański Uniwersytet Medyczny
 - <https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc>
 
 
-### Zajęcia 5 (10.03.2021)
+### Zajęcia 5 (17.03.2021)
 
 Basiński, K (2020). Podstawy działania ludzkiego systemu słuchowego. W: Chełkowska-Zacharewicz M., Kaleńska-Rodzaj J. (red). Psychologia muzyki. Wydawnictwo Naukowe PWN.
 
