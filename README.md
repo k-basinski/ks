@@ -23,12 +23,8 @@ Gdański Uniwersytet Medyczny
 - [02](02.html) - Przetwarzanie predykcyjne
 - [03](03.html) - Fale akustyczne
 - [04](04.html) - System słuchowy
+- [05](05.html) - Lokalizacja źródeł dźwięku
 
-<!-- 
-- [04](04.html) - Lokalizacja
-- [05](05.html) - Wysokość
-- [06](06.html) - Muzyka 
--->
 
 
 ## Syllabus
