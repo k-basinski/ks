@@ -58,6 +58,11 @@ Basiński, K (2020). Podstawy działania ludzkiego systemu słuchowego. W: Cheł
 
 ### Zajęcia kolejne (28.04.2021)
 
+Peretz, I. (2016). Neurobiology of congenital amusia. Trends in Cognitive Sciences, 20(11), 857-867. [pdf](https://www.sciencedirect.com/science/article/pii/S1364661316301450?casa_token=gY71angxKwoAAAAA:0Gw1U7BHPwqUlzzpdkJraGytFlXuKwHWfWlYnZn2qkF7IxaZm9Mx6iNuBADFDz6qcII1ynuaIg)
+
+
+### Zajęcia jeszcze bardziej kolejne (5.05.2021)
+
 Kotz, S. A., Ravignani, A., & Fitch, W. T. (2018). The evolution of rhythm processing. Trends in cognitive sciences, 22(10), 896-910. [pdf](https://www.sciencedirect.com/science/article/pii/S1364661318301918)
 
 <!-- 
