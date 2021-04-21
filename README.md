@@ -24,6 +24,7 @@ Gdański Uniwersytet Medyczny
 - [03](03.html) - Fale akustyczne
 - [04](04.html) - System słuchowy
 - [05](05.html) - Lokalizacja źródeł dźwięku
+- [06](06.html) - Wysokość
 
 
 
@@ -54,6 +55,10 @@ Gdański Uniwersytet Medyczny
 
 Basiński, K (2020). Podstawy działania ludzkiego systemu słuchowego. W: Chełkowska-Zacharewicz M., Kaleńska-Rodzaj J. (red). Psychologia muzyki. Wydawnictwo Naukowe PWN.
 
+
+### Zajęcia kolejne (28.04.2021)
+
+Kotz, S. A., Ravignani, A., & Fitch, W. T. (2018). The evolution of rhythm processing. Trends in cognitive sciences, 22(10), 896-910. [pdf](https://www.sciencedirect.com/science/article/pii/S1364661318301918)
 
 <!-- 
 #### Zajęcia 8
