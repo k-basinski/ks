@@ -25,6 +25,7 @@ Gdański Uniwersytet Medyczny
 - [04](04.html) - System słuchowy
 - [05](05.html) - Lokalizacja źródeł dźwięku
 - [06](06.html) - Wysokość
+- [07](07.html) - Rytm
 
 
 
