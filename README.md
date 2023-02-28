@@ -53,7 +53,7 @@ Gdański Uniwersytet Medyczny
 
 
 
-### Zajęcia 3 (07.03.2023)
+### Zajęcia 4 (14.03.2023)
 
 Basiński, K (2020). Podstawy działania ludzkiego systemu słuchowego. W: Chełkowska-Zacharewicz M., Kaleńska-Rodzaj J. (red). Psychologia muzyki. Wydawnictwo Naukowe PWN.
 
