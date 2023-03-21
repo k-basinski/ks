@@ -57,6 +57,10 @@ Gdański Uniwersytet Medyczny
 
 Basiński, K (2020). Podstawy działania ludzkiego systemu słuchowego. W: Chełkowska-Zacharewicz M., Kaleńska-Rodzaj J. (red). Psychologia muzyki. Wydawnictwo Naukowe PWN.
 
+
+### Zajęcia 6 (28.03.2023)
+
+Middlebrooks, J. C. (2015). Sound localization. Handbook of clinical neurology, 129, 99-116. **Od początku do Motion Perception (str. 99-105)** [pdf](https://escholarship.org/content/qt01k9w5zq/qt01k9w5zq.pdf)
 <!-- 
 
 ### Zajęcia kolejne (28.04.2021)
@@ -90,7 +94,10 @@ Warren, R. (2010) Sound and the auditory system. Str. 1-22. W: Auditory Percepti
 [Intuitions on predictive coding (...)](https://medium.com/@solopchuk/intuitions-on-predictive-coding-and-the-free-energy-principle-3fc5bcedc754) 
 -->
 
+### Materiały video
 
+- [Transformata Fouriera](https://www.youtube.com/watch?v=spUNpyF58BY&t=3s)
+  
 
 ## Prezentacje zaliczeniowe
 
