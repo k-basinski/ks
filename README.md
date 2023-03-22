@@ -61,6 +61,7 @@ Basiński, K (2020). Podstawy działania ludzkiego systemu słuchowego. W: Cheł
 ### Zajęcia 6 (28.03.2023)
 
 Middlebrooks, J. C. (2015). Sound localization. Handbook of clinical neurology, 129, 99-116. **Od początku do Motion Perception (str. 99-105)** [pdf](https://escholarship.org/content/qt01k9w5zq/qt01k9w5zq.pdf)
+
 <!-- 
 
 ### Zajęcia kolejne (28.04.2021)
